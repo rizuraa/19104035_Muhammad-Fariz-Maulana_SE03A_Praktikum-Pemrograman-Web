@@ -1,2 +1,2 @@
-# 19104035-Muhammad-Fariz-Maulana-Praktikum-Pemrograman-Web
+# 19104035_Muhammad-Fariz-Maulana_SE03A_Praktikum-Pemrograman-Web
 Repositori untuk matakuliah praktikum pemrograman web semester 5
