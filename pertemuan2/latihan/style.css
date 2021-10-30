@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3299a8;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #226670;
+}
+
+.bg-image {
+    background: url("src/bg2.jpg");
+    height: 70%;
+}
+
+.title-name {
+    margin-top: 200px;
+    float: left;
+    text-align: center;
+}
+
+.title-name h1 {
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+
+.title-name p {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+}
+
+.about {
+    float: left;
+    display: block;
+    margin-left: 40px;
+}
+
+.profil-set {
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.desc-about {
+    float: right;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+}
+
+.name {
+    float: right;
+    margin: 30px;
+}
+
+
+/* asasasasa */
+
+.wrapp {
+    margin: 15px;
+    margin-left: 100px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+    float: left;
+    width: 25%;
+    color: white;
+    padding: 10px;
+    height: 140px;
+    text-align: center;
+    margin-left: 70px;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.first {
+    background-color: tomato;
+}
+
+.second {
+    background-color: teal;
+}
+
+.third {
+    background-color: rgb(166, 71, 255);
+}
+
+.container:after {
+    clear: both;
+}
+
+.hr-style {
+    border: 1px solid #3299a8;
+    width: 88%;
+}
+
+.contact-me {
+    margin-left: 80px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #226670;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.contact-me h4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-me h4 a :hover {
+    color: #226670;
+}
