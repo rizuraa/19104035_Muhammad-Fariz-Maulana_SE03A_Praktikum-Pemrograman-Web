@@ -24,6 +24,7 @@
                                 <a class="nav-link" href="#">Mahasiswa</a>
                             </li>
                             <li class="nav-item">
+                                {{-- mengakses halaman about --}}
                                 <a class="nav-link" href="{{ route('about') }}">About</a>
                             </li>                            
                         </ul>
@@ -35,6 +36,7 @@
             <div class="col-lg-12">
                 <div class="card">
                     <div class="card-body">
+                        {{-- tempat untuk meletakan konten --}}
                         @yield('content')
                     </div>
                 </div>

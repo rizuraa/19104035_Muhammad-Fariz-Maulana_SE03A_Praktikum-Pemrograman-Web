@@ -15,5 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// route untuk mengakses halaman index
 Route::get('/', 'MyController@index')->name('index');
+
+// route untuk mengakses halaman about 
 Route::get('/tentang', 'MyController@about')->name('about');
