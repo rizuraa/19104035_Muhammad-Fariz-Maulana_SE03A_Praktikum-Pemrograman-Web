@@ -2,3 +2,5 @@
 Repositori untuk matakuliah praktikum pemrograman web semester 5
 
 pertemuan data table rangkap dengan API
+
+link hosting : https://fariz.umeboshi.my.id/mahasiswa
